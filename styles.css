@@ -1,0 +1,119 @@
+body {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)),
+    url(https://iili.io/FJsxZQ.jpg);
+  background-size: cover;
+}
+
+/* Title */
+header {
+  position: absolute;
+  top: 17%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Lora", sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 2%;
+  font-size: 3rem;
+  white-space: nowrap;
+}
+
+p {
+  font-family: "Lato";
+  font-size: 0.9rem;
+  margin-top: 1px;
+}
+
+
+/* Icons Set */
+.symbol {
+  cursor: pointer;
+  opacity: 60%;
+  outline: none;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+  background: transparent;
+  border-style: none;
+}
+
+.pressed {
+  opacity: 100%;
+}
+
+.left_side {
+  position: absolute;
+  left: 7%;
+  top: 50%;
+}
+
+.right_side {
+  position: absolute;
+  right: 7%;
+  top: 50%;
+}
+
+#rain {
+  background-image: url(images/rain_icon.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#sail {
+  background-image: url(images/sail_icon.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#wind {
+  background-image: url(images/wind_icon.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#seagull {
+  background-image: url(images/seagull_icon.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#syren {
+  background-image: url(images/mermaid_icon.png);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#wave {
+  background-image: url(images/wave_icon.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Audio slider */
+
+#slider {
+  width: 200px;
+  margin: 10px auto;
+  position: relative;
+}
+
+.audio-img {
+  position: absolute;
+  left: 29%;
+  top: 5%;
+  width: 3%;
+}

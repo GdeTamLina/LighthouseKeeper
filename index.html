@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Lighthouse keeper mood, sounds of nature</title>
+
+  <!-- CSS and JQuery -->
+  <link rel="stylesheet" href="styles.css">
+  <link href="jquery-ui-1.12.1.custom/jquery-ui.css" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon.ico">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Lora:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Title and audio slider -->
+  <header>
+    <div>
+      <img class="audio-img" src="images/audio.png" alt="">
+      <div class="slider" id="slider"></div>
+    </div>
+
+    <h1>Lighthouse Keeper Mood</h1>
+    <p>Home is where your light is</p>
+  </header>
+
+  <!-- Icons Set -->
+  <div class="left_side">
+    <button id="rain" class="symbol"></button>
+    <button id="sail" class="symbol"></button>
+    <button id="wind" class="symbol"></button>
+  </div>
+  <div class="right_side">
+    <button id="seagull" class="symbol"></button>
+    <button id="syren" class="symbol"></button>
+    <button id="wave" class="symbol"></button>
+  </div>
+
+  <!-- Audio Set -->
+  <audio class="rain_sound">
+    <source src="sounds/rain.mp3" type='audio/mpeg' />
+  </audio>
+
+  <audio class="sail_sound">
+    <source src="sounds/sail.mp3" ; type="audio/mpeg" />
+  </audio>
+
+  <audio class="seagull_sound">
+    <source src="sounds/seagull.mp3" ; type="audio/mpeg" />
+  </audio>
+
+  <audio class="syren_sound">
+    <source src="sounds/syren.mp3" ; type="audio/mpeg" />
+  </audio>
+
+  <audio class="wave_sound">
+    <source src="sounds/wave.mp3" ; type="audio/mpeg" />
+  </audio>
+
+  <audio class="wind_sound">
+    <source src="sounds/wind.mp3" ; type="audio/mpeg" />
+  </audio>
+
+  <!-- Icons made by <a href="https://www.flaticon.com/authors/hirschwolf" title="hirschwolf">hirschwolf</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> -->
+  <!-- Icons made by <a href="https://www.flaticon.com/authors/bqlqn" title="bqlqn">bqlqn</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> -->
+  <!-- Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> -->
+
+
+<!-- JQuery scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+  <script src="jquery-ui-1.12.1.custom/external/jquery/jquery.js"></script>
+  <script src="jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+  <script>
+  $( "#accordion" ).accordion();
+  $( "#slider" ).slider({
+  });
+  </script>
+</body>
+
+</html>
